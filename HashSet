@@ -3,11 +3,14 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class HashSetDemo {
-
-	public static void main(String[] args) {
+       //Sequence is not there,
+	//Null is allowed in HashSet,
+	//Duplicates aren't allowed
+		
+      public static void main(String[] args) {
 		
 		
-		Set<Double>	temp=new HashSet<Double>();
+		Set<Double>temp=new HashSet<Double>();
 		temp.add(36.5);
 		temp.add(40.5);
 		temp.add(42.5);
