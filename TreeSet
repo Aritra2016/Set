@@ -1,0 +1,28 @@
+import java.util.Set;
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+
+	public static void main(String[] args) {
+		
+		 //Sequence is not there,
+		//Null is  not allowed in TreeSet, as it will show Null pointer exception
+		//Duplicates aren't allowed,
+		//Automatic Sorting will be there,
+		
+		Set<Double>	temp=new TreeSet<Double>();
+		temp.add(36.5);
+		temp.add(40.5);
+		temp.add(42.5);
+		temp.add(39.5);
+	
+		temp.add(38.5);
+		
+		System.out.println(temp);// Automatic Sorting will be there,
+		temp.add(38.5);
+		System.out.println(temp);// Duplicates aren't allowed,
+		
+	
+	}
+
+}
